@@ -14,7 +14,7 @@ public class Practice1 {
         for(int x : arr){
             if(x==0){
                 if(pq.isEmpty()) sb.append("0 ");
-                sb.append(pq.poll()).append(" ");
+                else sb.append(pq.poll()).append(" ");
             } else {
                 pq.add(x);
             }

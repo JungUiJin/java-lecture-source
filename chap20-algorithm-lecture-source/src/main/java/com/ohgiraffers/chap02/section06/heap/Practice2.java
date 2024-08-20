@@ -47,9 +47,8 @@ public class Practice2 {
             bagArray[i] = Integer.parseInt(br.readLine());
         }
         Arrays.sort(bagArray);
-
+        int j=0;
         for(int i = 0; i < k; i++){
-            int j=0;
             while(j<n && jewelryArray[j].weight <= bagArray[i]){
                 jewelryHeap.offer(jewelryArray[j++].price);
             }
