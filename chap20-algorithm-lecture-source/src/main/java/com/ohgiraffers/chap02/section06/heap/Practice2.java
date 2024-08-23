@@ -32,6 +32,7 @@ public class Practice2 {
             int price = Integer.parseInt(st.nextToken());
             jewelryArray[i] = new Jewelry(weight, price);
         }
+
         Arrays.sort(jewelryArray, new Comparator<Jewelry>() {
             @Override
             public int compare(Jewelry o1, Jewelry o2) {
@@ -41,6 +42,7 @@ public class Practice2 {
                 return o1.weight - o2.weight;
             }
         });
+
 
         int[] bagArray = new int[k];
         for(int i = 0; i < k; i++){
