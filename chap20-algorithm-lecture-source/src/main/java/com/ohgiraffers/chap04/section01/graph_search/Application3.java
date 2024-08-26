@@ -55,7 +55,6 @@ public class Application3 {
         queue.add(new Node(x,y));
         visited[x][y] = true;
 
-        /* 상하좌우에 배추가 심어져 있다면 해당 위치를 방문한 것으로 표시하고 queue 를 통해 탐색하는 작업을 반복 */
         while(!queue.isEmpty()){
             Node cur = queue.poll();
             for(int i = 0; i < 4; i++){
