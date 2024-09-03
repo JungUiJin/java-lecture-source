@@ -1,0 +1,9 @@
+spring:
+  servlet:
+    multipart:
+      # 파일 저장 경로
+      location: C:\Users\Playdata\Desktop\java실습\강의 실습\springboot\chap06-file-upload
+      # 최대 업로드 파일 크기
+      max-file-size: 10MB
+      # 최대 요청 파일 크기
+      max-request-size: 10MB
