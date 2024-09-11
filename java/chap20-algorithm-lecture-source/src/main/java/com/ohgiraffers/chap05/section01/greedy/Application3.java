@@ -4,9 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.StringReader;
-import java.util.Arrays;
-import java.util.Comparator;
-import java.util.StringTokenizer;
+import java.util.*;
 
 public class Application3 {
     public static int solution(String input) throws IOException {
@@ -58,6 +56,7 @@ public class Application3 {
 //                curEnd = times[i][1];
 //            }
 //        }
+
 
 
         return count;
